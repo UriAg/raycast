@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurations</title>
+</head>
+<body>
+  <button onclick="changeBackground('red')">Red</button>
+  <button onclick="changeBackground('black')">Black</button>
+  <button onclick="changeBackground('green')">Green</button>
+</body>
+<script>
+  function changeBackground(color){
+    switch (color){
+      case "red":
+        color = "#FF0000";
+        break;
+      case "black":
+        color = "#000";
+        break;
+      case "green":
+        color = "#00FF00";
+        break;
+    }
+    localStorage.setItem("bg", color);
+  }
+</script>
+</html>
