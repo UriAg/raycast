@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I-comers</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Despensa "El i-comers"</h1>
+    </header>
+    <main>  
+      <div class="items-container">
+        <div class="shop-header">
+          <p>Escogé tu producto</p>
+          <p id="cash">Dinero restante: $3000</p>
+        </div>
+        <div class="items-section a">
+          <div id="next" class="item">
+            <img src="./icons/DeviconNextjs.svg" alt="Item Next.js">
+            <span>NextJS 2kg</span>
+          </div>
+          <div id="ladrillos" class="item">
+            <img src="./icons/ladrillos.png" alt="Item Ladrillos">
+            <span>Ladrillos x999999</span>
+          </div>
+          <div id="coca" class="item">
+            <img src="./icons/coca.png" alt="Item Coca-Cola">
+            <span>Coca 1,25L x1</span>
+          </div>
+        </div>
+        <div class="items-section b">
+          <div id="html" class="item">
+            <img src="./icons/DeviconHtml5.svg" alt="Item HTML5">
+            <span>El mejor lenguaje del mundo</span>
+          </div>
+          <div id="tailwind" class="item">
+            <img src="./icons/LogosTailwindcssIcon.svg" alt="Item TailwindCSS">
+            <span>TailwindCSS 300gr</span>
+          </div>
+          <div id="rabano" class="item">
+            <img src="./icons/rabano.png" alt="Item Rabano">
+            <span>Rabano x1</span>
+          </div>
+        </div>
+      </div>
+      <p id="msg" class="msg"></p>
+    </main>
+  </body>
+  <script type="module" src="../../dist/pages/commerce/index.js" defer></script>
+</html>

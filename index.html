@@ -3,11 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raycasting</title>
+  <title>Algo raro con raycasting</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <canvas id="canvas"></canvas>
+  <p class="keys" id="keys">
+    W, S = Movimiento adelante/atrás<br>
+    A, D = Rotar a la izquierda/derecha<br>
+    E = Interactuar<br>
+  </p>
+  <p class="msg" id="msg"></p>
+  <p class="msg" id="text"></p>
+  <p class="money" id="money"> $ 0</p>
+  <div class="items-bar">
+    <div class="item-container"></div>
+    <div class="item-container"></div>
+    <div class="item-container">
+      <img class="bar-item-img" src="./pages/commerce/icons/LogosTailwindcssIcon.svg" alt="Icono de TailwindCSS en Hotbar" id="bar-item">
+    </div>
+    <div class="item-container">
+      <img class="bar-item-img" src="./pages/commerce/icons/coca.png" alt="Icono de Coca en Hotbar" id="bar-item">
+    </div>
+    <div class="item-container">
+      <img class="bar-item-img" src="./pages/commerce/icons/DeviconNextjs.svg" alt="Icono de NextJS en Hotbar" id="bar-item">
+    </div>
+  </div>
+  <!-- <p class="msg" id="">algo</p> -->
 </body>
 <script type="module" src="./dist/index.js" defer></script>
 </html>
