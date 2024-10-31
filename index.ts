@@ -606,7 +606,7 @@ function init() {
 
   setTimeout(() => {
     keys.textContent = "";
-  }, 3000);
+  }, 5000);
 
   const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
   canvas.width = CANVAS_WIDTH;
